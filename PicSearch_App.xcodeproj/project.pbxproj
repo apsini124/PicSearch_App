@@ -50,7 +50,7 @@
 		9357C7E92A31ACD1008B2AA9 = {
 			isa = PBXGroup;
 			children = (
-				9357C7F42A31ACD1008B2AA9 /* PicSearch_App new */,
+				9357C7F42A31ACD1008B2AA9 /* PicSearch_App */,
 				9357C7F32A31ACD1008B2AA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +63,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9357C7F42A31ACD1008B2AA9 /* PicSearch_App new */ = {
+		9357C7F42A31ACD1008B2AA9 /* PicSearch_App */ = {
 			isa = PBXGroup;
 			children = (
 				9357C7F52A31ACD1008B2AA9 /* AppDelegate.swift */,
@@ -79,7 +79,7 @@
 				935BAC172A32E39600921C94 /* WebUtility.swift */,
 				9E74905E2A373D6B0079EC8B /* PhotoCellCollectionVC.swift */,
 			);
-			path = "PicSearch_App new";
+			path = PicSearch_App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

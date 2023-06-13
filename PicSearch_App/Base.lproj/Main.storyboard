@@ -80,7 +80,7 @@
                                 <rect key="frame" x="5" y="125.66666666666669" width="383" height="687.33333333333326"/>
                                 <subviews>
                                     <searchBar contentMode="redraw" verticalCompressionResistancePriority="751" placeholder=" image name" translatesAutoresizingMaskIntoConstraints="NO" id="9FQ-w4-5Wb">
-                                        <rect key="frame" x="0.0" y="0.0" width="338" height="56"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="383" height="56"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </searchBar>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5a-37-RN3">
@@ -116,6 +116,11 @@
                                         </prototypes>
                                     </tableView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="9FQ-w4-5Wb" firstAttribute="top" secondItem="Ld9-To-qSD" secondAttribute="top" id="7oD-fp-Am2"/>
+                                    <constraint firstAttribute="trailing" secondItem="9FQ-w4-5Wb" secondAttribute="trailing" id="JfA-Gp-Ovk"/>
+                                    <constraint firstItem="9FQ-w4-5Wb" firstAttribute="leading" secondItem="Ld9-To-qSD" secondAttribute="leading" id="dbo-Uq-9G4"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="88b-dY-z3g"/>
